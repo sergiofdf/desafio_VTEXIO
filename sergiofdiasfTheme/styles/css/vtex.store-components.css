@@ -1,0 +1,61 @@
+.searchBarContainer{
+    width: 400px;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group){
+    border: none;
+    border-radius: 0;
+    border-bottom: thin solid #fff;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) ::placeholder{
+    color: #fff;
+}
+.searchBarContainer :global(.vtex-input__suffix){
+    background: transparent;
+    color: #fff;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input){
+    background: transparent;
+    color:#fff;
+}
+
+.searchIcon{
+    color: #fff;
+}
+
+.imageElement{
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.carouselContainer{
+    justify-content: center;
+}
+
+.carouselGaleryThumbs{
+    display:none;  
+}
+
+.carouselGaleryCursor{
+    margin-left: 0;
+}
+
+.productImageTag{
+    position: relative;
+    margin: auto;
+}
+
+.carouselGaleryCursor{
+    width: 300px;
+    padding: 0;
+}
+
+.swiperCaret{
+
+}
+
+.highlightContent{
+    background: #424242;
+}

@@ -1,0 +1,17 @@
+.listContainer{
+    position: fixed;
+    top: 62px;
+    background: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    z-index: 10;
+}
+
+
+.listItem :global(.vtex-button){
+    background: #212121;
+    border-color: transparent ;
+    color:#59FF00;
+}
+

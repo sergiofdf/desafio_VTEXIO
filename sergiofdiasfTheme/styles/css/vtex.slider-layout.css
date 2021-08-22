@@ -1,0 +1,23 @@
+.slideChildrenContainer{
+    margin-top: 50px;
+    background:#303030;
+    /* margin-bottom: 30px; */
+    padding-bottom: 30px;
+}
+
+.sliderArrows{
+    top: 385px;
+    margin: 0 280px;
+    z-index: 10;
+}
+
+.caretIcon{
+    color:#fff;
+    width: 15px;
+}
+
+
+.caretIcon:hover{
+    background:#424242;
+    border-radius: 1px;
+}

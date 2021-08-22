@@ -1,0 +1,17 @@
+.flexRowContent{
+    background: #212121;
+}
+
+.flexRowContent--footerContainer{
+    position: fixed;
+    bottom: 0;
+    background:#424242;
+    z-index: 10;
+}
+
+.flexCol--search-favorite{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

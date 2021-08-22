@@ -1,0 +1,69 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "flex-layout.row#footer": { 
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "paddingTop":2,
+      "paddingBottom": 2,
+      "marginTop": 5,
+      "blockClass": "footerContainer"
+    },
+    "children": [
+      "flex-layout.col#login-footer",
+      "whats"
+    ]
+  },
+  "flex-layout.col#login-footer": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [ "modal-trigger#example"]
+  },
+  "modal-trigger#example": {
+    "children": [
+      "image#example",
+      "rich-text#example",
+      "modal-layout#example"
+    ],
+    "props": {
+      "trigger": "click"
+    }
+  },
+  "image#example": {
+    "props": {
+      "src": "https://cdn.statically.io/gh/sergiofdf/images/main/login.svg",
+      "maxHeight": 30
+    }
+  },
+  "rich-text#example": {
+    "props": {
+      "text": "CADASTRO"
+    }
+  },
+  "modal-layout#example": {
+    "children": [
+      "modal-content"
+    ]
+  },
+  "modal-content":{
+    "children": [
+      "userform"
+    ]
+  }
+}
