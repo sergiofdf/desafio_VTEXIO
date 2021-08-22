@@ -1,0 +1,18 @@
+.divClass{
+    margin: 0 20px;
+    padding: 0;
+    transform: translate(0, 18px);
+}
+
+p{
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.logoWhats{
+    width: 34px;
+    margin-left: 22px;
+}
+

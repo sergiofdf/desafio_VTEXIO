@@ -1,0 +1,8 @@
+{
+  "userform": {
+    "component": "UserForm"
+  },
+  "whats": {
+    "component": "Whats"
+  }
+}
