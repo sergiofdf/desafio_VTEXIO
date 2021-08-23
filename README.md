@@ -15,4 +15,7 @@
 ## Criados componente com React para interagir com API do whatsapp
 
 ## Criado componente com React + modalLauyout para formulário de cadastro
+
 ## Utilizado AWS Gateway + Lambda para criar uma API e registrar dados no DynamoDB
+
+### Está faltando a parte de responsividade e design mobile.

@@ -1,3 +1,8 @@
+.logoImage{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
 .searchBarContainer{
     width: 400px;
 }
@@ -52,10 +57,11 @@
     padding: 0;
 }
 
-.swiperCaret{
-
-}
-
 .highlightContent{
     background: #424242;
+}
+
+
+@media (max-width: 600px){
+   
 }
