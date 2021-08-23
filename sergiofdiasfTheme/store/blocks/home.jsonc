@@ -5,7 +5,6 @@
     },
     "blocks": [
       "tab-layout#home"
-      // "search-result-layout.customQuery#home"
     ]
   },
   "tab-layout#home": {
@@ -75,10 +74,6 @@
           "tabId": "palmeiras"
         }
       },
-
-
-
-
   "slider-layout#home": {
     "children": ["image#brand1", "image#brand2"],
     "props": {
@@ -96,14 +91,12 @@
       "blockClass": "carousel"
     }
   },
-
   "image#brand1": {
     "props": {
       "src": "assets/images/banner1.png",
       "maxWidth": 900
     }
   },
-
   "image#brand2": {
     "props": {
       "src":"assets/images/banner2.png",

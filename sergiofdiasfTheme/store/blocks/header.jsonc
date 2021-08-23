@@ -27,10 +27,6 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      // "search-bar",
-      // "flex-layout.col#favorites-icon",
-      // "locale-switcher",
-      // "login",
       "minicart.v2"
     ]
   },
@@ -62,7 +58,7 @@
   "flex-layout.col#favorites-icon": {
     "props": {
       "verticalAlign": "middle",
-      "marginRigth": "10"
+      "marginRight": "10"
     },
     "children": ["logo#favorite-icon"]
   },
@@ -76,7 +72,6 @@
       "title": "Favorite",
       "href": "/",
       "url": "assets/images/heart.svg",
-      // "url": "https://cdn.statically.io/gh/sergiofdf/images/main/heart-outline.svg",
       "width": "30"
     }
   },

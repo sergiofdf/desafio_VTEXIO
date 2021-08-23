@@ -19,9 +19,9 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "paddingTop":2,
+      "paddingTop":1,
       "paddingBottom": 2,
-      "marginTop": 5,
+      "marginTop": 1,
       "blockClass": "footerContainer"
     },
     "children": [
@@ -33,30 +33,30 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": [ "modal-trigger#example"]
+    "children": [ "modal-trigger#cadastro"]
   },
-  "modal-trigger#example": {
+  "modal-trigger#cadastro": {
     "children": [
-      "image#example",
-      "rich-text#example",
-      "modal-layout#example"
+      "image#cadastro",
+      "rich-text#cadastro",
+      "modal-layout#cadastro"
     ],
     "props": {
       "trigger": "click"
     }
   },
-  "image#example": {
+  "image#cadastro": {
     "props": {
       "src": "https://cdn.statically.io/gh/sergiofdf/images/main/login.svg",
       "maxHeight": 30
     }
   },
-  "rich-text#example": {
+  "rich-text#cadastro": {
     "props": {
       "text": "CADASTRO"
     }
   },
-  "modal-layout#example": {
+  "modal-layout#cadastro": {
     "children": [
       "modal-content"
     ]
